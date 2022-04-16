@@ -1,10 +1,10 @@
-import LeftHalf from '../components/halves/LeftHalf';
-import RightHalf from '../components/halves/RightHalf';
+import LeftHalfSnippet from '../components/layouts/snippet/LeftHalfSnippet';
+import RightHalfOutput from '../components/layouts/output/RightHalfOutput';
 
 const Index = () => (
   <div>
-    <LeftHalf />
-    <RightHalf />
+    <LeftHalfSnippet />
+    <RightHalfOutput />
   </div>
 );
 
